@@ -1,9 +1,9 @@
-# rollup-plugin-json5
+# @miyaneee/rollup-plugin-json5
 
-![npm](https://img.shields.io/npm/v/Gu-Miao/rollup-plugin-json5?logo=npm&style=flat-square)
-![npm type definitions](https://img.shields.io/npm/types/Gu-Miao/rollup-plugin-json5?logo=typescript&style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/Gu-Miao/rollup-plugin-json5?logo=npm&style=flat-square)
-![GitHub](https://img.shields.io/github/license/Gu-Miao/rollup-plugin-json5?logo=github&style=flat-square)
+![npm](https://img.shields.io/npm/v/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/Miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![GitHub](https://img.shields.io/github/license/Miyaneee/rollup-plugin-json5?logo=github&style=flat-square)
 
 🍣 一个将 .json 文件转换为 ES6 模块的 rollup 插件。这个插件和官方提供的解析 json 的插件非常相似，除了它的解析器。
 
@@ -18,13 +18,13 @@
 使用 npm 安装：
 
 ```bash
-npm install rollup-plugin-json5 -D
+npm install @miyaneee/rollup-plugin-json5 -D
 ```
 
 或者使用 yarn 安装：
 
 ```bash
-yarn add rollup-plugin-json5 -D
+yarn add @miyaneee/rollup-plugin-json5 -D
 ```
 
 ## 使用
@@ -32,7 +32,7 @@ yarn add rollup-plugin-json5 -D
 创建一个 `rollup.config.js` [配置文件](https://www.rollupjs.com/guide/command-line-reference#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6configuration-files) 并引入插件：
 
 ```js
-import json5 from 'rollup-plugin-json5'
+import json5 from '@miyaneee/rollup-plugin-json5'
 
 export default {
   input: 'src/index.js',

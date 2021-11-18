@@ -1,9 +1,9 @@
-# rollup-plugin-json5
+# @miyaneee/rollup-plugin-json5
 
-![npm](https://img.shields.io/npm/v/Gu-Miao/rollup-plugin-json5?logo=npm&style=flat-square)
-![npm type definitions](https://img.shields.io/npm/types/Gu-Miao/rollup-plugin-json5?logo=typescript&style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/Gu-Miao/rollup-plugin-json5?logo=npm&style=flat-square)
-![GitHub](https://img.shields.io/github/license/Gu-Miao/rollup-plugin-json5?logo=github&style=flat-square)
+![npm](https://img.shields.io/npm/v/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/Miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![GitHub](https://img.shields.io/github/license/Miyaneee/rollup-plugin-json5?logo=github&style=flat-square)
 
 🍣 A Rollup plugin which Converts .json5 files to ES6 modules. This plugin is very similar to json plugin officially provided beside the parser.
 
@@ -18,13 +18,13 @@ This plugin requires an [LTS](https://github.com/nodejs/Release) Node version (v
 Using npm:
 
 ```bash
-npm install rollup-plugin-json5 -D
+npm install @miyaneee/rollup-plugin-json5 -D
 ```
 
 Or use yarn:
 
 ```bash
-yarn add rollup-plugin-json5 -D
+yarn add @miyaneee/rollup-plugin-json5 -D
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ yarn add rollup-plugin-json5 -D
 Create a `rollup.config.js` [configuration file](https://www.rollupjs.org/guide/en/#configuration-files) and import the plugin:
 
 ```js
-import json5 from 'rollup-plugin-json5'
+import json5 from '@miyaneee/rollup-plugin-json5'
 
 export default {
   input: 'src/index.js',
