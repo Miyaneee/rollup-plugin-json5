@@ -8,7 +8,7 @@ function json5Plugin(options = {}) {
   return {
     name: 'json5',
     transform(json, id) {
-      if (!/.json5$/.test(id) || !filter(id)) return null
+      if (!/\.json5$/.test(id) || !filter(id)) return null
 
       try {
         const parsed = json5.parse(json)
