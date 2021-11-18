@@ -20,7 +20,8 @@
     "types",
     "README_zh.md",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "package.json"
   ],
   "keywords": [
     "rollup",
