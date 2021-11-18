@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-json5",
+  "name": "@miyaneee/rollup-plugin-json5",
   "description": "Convert .json5 files to ES6 modules",
   "version": "1.0.0",
   "repository": {
