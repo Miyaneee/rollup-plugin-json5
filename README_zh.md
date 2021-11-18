@@ -21,7 +21,7 @@
 npm install rollup-plugin-json5 -D
 ```
 
-或者使用 yanr 安装：
+或者使用 yarn 安装：
 
 ```bash
 yarn add rollup-plugin-json5 -D
