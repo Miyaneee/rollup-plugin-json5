@@ -7,6 +7,8 @@
 
 🍣 A Rollup plugin which Converts .json5 files to ES6 modules. This plugin is very similar to json plugin officially provided beside the parser.
 
+[简体中文](./README_zh.md) | **English**
+
 ## Requirements
 
 This plugin requires an [LTS](https://github.com/nodejs/Release) Node version (v8.0.0+) and Rollup v1.20.0+.
