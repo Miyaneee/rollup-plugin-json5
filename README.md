@@ -1,8 +1,8 @@
 # @miyaneee/rollup-plugin-json5
 
-![npm](https://img.shields.io/npm/v/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
-![npm type definitions](https://img.shields.io/npm/types/Miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm](https://img.shields.io/npm/v/@miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/@miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/Miyaneee/rollup-plugin-json5?logo=github&style=flat-square)
 
 🍣 A Rollup plugin which Converts .json5 files to ES6 modules. This plugin is very similar to json plugin officially provided beside the parser.
@@ -96,6 +96,12 @@ Type: `Boolean`<br>
 Default: `false`
 
 If `true`, instructs the plugin to declare properties as variables, using either `var` or `const`. This pertains to tree-shaking.
+
+### `reviver`
+
+Type: `((this: any, key: string, value: any) => any) | null`
+
+See [JSON5.parse()](https://github.com/json5/json5#json5parse).
 
 ## LICENSE
 

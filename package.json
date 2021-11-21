@@ -1,14 +1,14 @@
 {
   "name": "@miyaneee/rollup-plugin-json5",
-  "description": "Convert .json5 files to ES6 modules",
-  "version": "1.0.0",
+  "description": "🍣 A Rollup plugin which Converts .json5 files to ES6 modules.",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gu-Miao/rollup-plugin-json5.git"
+    "url": "git+https://github.com/Miyaneee/rollup-plugin-json5.git"
   },
-  "homepage": "https://github.com/Gu-Miao/rollup-plugin-json5#readme",
+  "homepage": "https://github.com/Miyaneee/rollup-plugin-json5#readme",
   "bugs": {
-    "url": "https://github.com/Gu-Miao/rollup-plugin-json5/issues"
+    "url": "https://github.com/Miyaneee/rollup-plugin-json5/issues"
   },
   "author": {
     "name": "Gu-Miao",

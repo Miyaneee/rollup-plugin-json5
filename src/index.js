@@ -11,7 +11,7 @@ function json5Plugin(options = {}) {
       if (!/\.json5$/.test(id) || !filter(id)) return null
 
       try {
-        const parsed = json5.parse(json)
+        const parsed = json5.parse(json, options.reviver)
         return {
           code: dataToEsm(parsed, {
             preferConst: options.preferConst,

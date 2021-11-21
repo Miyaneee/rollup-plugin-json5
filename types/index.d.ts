@@ -33,6 +33,10 @@ export interface RollupJson5Options {
    * @default true
    */
   namedExports?: boolean
+  /**
+   * A function that prescribes how the value originally produced
+   */
+  reviver?: ((this: any, key: string, value: any) => any) | null
 }
 
 /**
