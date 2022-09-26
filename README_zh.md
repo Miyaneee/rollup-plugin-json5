@@ -1,8 +1,8 @@
 # @miyaneee/rollup-plugin-json5
 
-![npm](https://img.shields.io/npm/v/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
-![npm type definitions](https://img.shields.io/npm/types/Miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/Miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm](https://img.shields.io/npm/v/@miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/@miyaneee/rollup-plugin-json5?logo=typescript&style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/Miyaneee/rollup-plugin-json5?logo=github&style=flat-square)
 
 🍣 一个将 .json 文件转换为 ES6 模块的 rollup 插件。这个插件和官方提供的解析 json 的插件非常相似，除了它的解析器。
@@ -96,6 +96,12 @@ console.log(json)
 默认值：`false`
 
 如果为 `true`，令插件使用 `var` 或者 `const` 将属性定义为变量。与摇树优化相关。
+
+### `reviver`
+
+类型：`((this: any, key: string, value: any) => any) | null`
+
+查看 [JSON5.parse()](https://github.com/json5/json5#json5parse)。
 
 ## 许可证
 
