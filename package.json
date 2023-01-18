@@ -1,7 +1,7 @@
 {
   "name": "@miyaneee/rollup-plugin-json5",
   "description": "🍣 A Rollup plugin which Converts .json5 files to ES6 modules.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Miyaneee/rollup-plugin-json5.git"
@@ -38,14 +38,14 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "rollup": "^1.20.0 || ^2.0.0"
+    "rollup": "^1.20.0 || ^2.0.0 || ^3.0.0"
   },
   "dependencies": {
-    "@rollup/pluginutils": "^4.2.1",
-    "json5": "^2.2.1"
+    "@rollup/pluginutils": "^5.0.2",
+    "json5": "^2.2.3"
   },
   "devDependencies": {
-    "@rollup/plugin-buble": "^0.21.3",
-    "rollup": "^2.79.1"
+    "@rollup/plugin-buble": "^1.0.1",
+    "rollup": "^3.10.0"
   }
 }
