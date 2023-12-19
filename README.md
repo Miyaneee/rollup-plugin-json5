@@ -97,6 +97,13 @@ Default: `false`
 
 If `true`, instructs the plugin to declare properties as variables, using either `var` or `const`. This pertains to tree-shaking.
 
+### `includeArbitraryNames`
+
+Type: `Boolean`<br>
+Default: `false`
+
+If `true` and `namedExports` is `true`, generates a named export for not a valid identifier properties of the JSON object by leveraging the ["Arbitrary Module Namespace Identifier Names" feature](https://github.com/tc39/ecma262/pull/2154).
+
 ### `reviver`
 
 Type: `((this: any, key: string, value: any) => any) | null`

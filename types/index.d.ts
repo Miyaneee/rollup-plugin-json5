@@ -34,6 +34,13 @@ export interface RollupJson5Options {
    */
   namedExports?: boolean
   /**
+   * When this option is set, dataToEsm will generate a named export for keys that
+   * are not a valid identifier, by leveraging the "Arbitrary Module Namespace Identifier
+   * Names" feature. See: https://github.com/tc39/ecma262/pull/2154
+   * @default false
+   */
+  includeArbitraryNames?: boolean
+  /**
    * A function that prescribes how the value originally produced
    */
   reviver?: ((this: any, key: string, value: any) => any) | null

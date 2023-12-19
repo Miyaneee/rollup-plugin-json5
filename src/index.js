@@ -17,6 +17,7 @@ function json5Plugin(options = {}) {
             preferConst: options.preferConst,
             compact: options.compact,
             namedExports: options.namedExports,
+            includeArbitraryNames: options.includeArbitraryNames,
             indent
           }),
           map: { mappings: '' }

@@ -5,7 +5,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@miyaneee/rollup-plugin-json5?logo=npm&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/Miyaneee/rollup-plugin-json5?logo=github&style=flat-square)
 
-🍣 一个将 .json 文件转换为 ES6 模块的 rollup 插件。这个插件和官方提供的解析 json 的插件非常相似，除了它的解析器。
+🍣 一个将 .json5 文件转换为 ES6 模块的 rollup 插件。这个插件和官方提供的解析 json 的插件非常相似，除了它的解析器。
 
 **简体中文** | [English](./README.md)
 
@@ -96,6 +96,13 @@ console.log(json)
 默认值：`false`
 
 如果为 `true`，令插件使用 `var` 或者 `const` 将属性定义为变量。与摇树优化相关。
+
+### `includeArbitraryNames`
+
+类型：`Boolean`<br>
+默认值：`false`
+
+如果本选项设为 `true` 并且 `namedExports` 也被设为 `true`，那么就会利用[“任意模块命名空间标识符名称”特性](https://github.com/tc39/ecma262/pull/2154)，为 JSON 对象中非有效标识符属性生成一个命名导出。
 
 ### `reviver`
 
