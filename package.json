@@ -1,7 +1,7 @@
 {
   "name": "@miyaneee/rollup-plugin-json5",
   "description": "🍣 A Rollup plugin which Converts .json5 files to ES6 modules.",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Miyaneee/rollup-plugin-json5.git"
